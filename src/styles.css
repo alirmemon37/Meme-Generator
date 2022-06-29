@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: whitesmoke;
+}
+
+.container {
+  width: 85%;
+  max-width: 55rem;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  padding: 20px 37px 20px 20px;
+}
+
+.header-div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.header-img {
+  width: 31px;
+  height: auto;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 2.07482rem;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  color: #ffffff;
+}
+
+.header-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 15px;
+  justify-self: flex-end;
+  color: #ffffff;
+}
+
+.meme-container {
+  background: #ffffff;
+  padding: 36px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40px 40px;
+  gap: 17px;
+  margin-bottom: 36px;
+}
+
+.form-input {
+  font-family: inherit;
+  font-size: 1.2rem;
+  line-height: 14px;
+  color: #0d0d0d;
+  padding: 0 11px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-button {
+  grid-column: 1/-1;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.1em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: "impact", sans-serif;
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.meme-img {
+  max-width: 100%;
+  border-radius: 3px;
+}
